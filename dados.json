@@ -1,0 +1,1129 @@
+{
+  "total_alunos": 3137,
+  "total_escolas": 19,
+  "total_turmas": 58,
+  "escolas": [
+    {
+      "nome": "UNIDADE MUNIC DE ENS JOSE GONCALVES DE ANDRADE",
+      "quantidade": 177
+    },
+    {
+      "nome": "UNIDADE MUNIC DE ENS PROFª Mª CELESTE M DE ANDRADE",
+      "quantidade": 31
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENS JAIME DE ALTAVILLA",
+      "quantidade": 98
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO ANA TEREZA DE JESUS",
+      "quantidade": 62
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO CAMPO NOVO",
+      "quantidade": 82
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO CAP MANOEL REGO",
+      "quantidade": 220
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO JOSE TAVARES DE CASTRO",
+      "quantidade": 58
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO LINDAURO COSTA",
+      "quantidade": 77
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO MINISTRO AUGUSTO DE FREITAS MACHADO",
+      "quantidade": 270
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO MONSENHOR LYRA",
+      "quantidade": 102
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO PEDRO SOARES DOS PRAZERES",
+      "quantidade": 204
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO PROF MANOEL ALVES",
+      "quantidade": 28
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO PROFª MARIA TAVARES PINTO",
+      "quantidade": 596
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO RONALCO DOS ANJOS",
+      "quantidade": 149
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO SAO MIGUEL",
+      "quantidade": 92
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO SENADOR RUI PALMEIRA",
+      "quantidade": 580
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO SITIO JOAO LEITE",
+      "quantidade": 193
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL ENS JULIO DAMASCENO RIBEIRO",
+      "quantidade": 61
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL VER ANTONIO MACHADO GUIMARAES",
+      "quantidade": 57
+    }
+  ],
+  "turmas_por_escola": [
+    {
+      "nome": "UNIDADE MUNIC DE ENS JOSE GONCALVES DE ANDRADE",
+      "quantidade": 9
+    },
+    {
+      "nome": "UNIDADE MUNIC DE ENS PROFª Mª CELESTE M DE ANDRADE",
+      "quantidade": 3
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENS JAIME DE ALTAVILLA",
+      "quantidade": 3
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO ANA TEREZA DE JESUS",
+      "quantidade": 5
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO CAMPO NOVO",
+      "quantidade": 4
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO CAP MANOEL REGO",
+      "quantidade": 10
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO JOSE TAVARES DE CASTRO",
+      "quantidade": 4
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO LINDAURO COSTA",
+      "quantidade": 5
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO MINISTRO AUGUSTO DE FREITAS MACHADO",
+      "quantidade": 9
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO MONSENHOR LYRA",
+      "quantidade": 6
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO PEDRO SOARES DOS PRAZERES",
+      "quantidade": 10
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO PROF MANOEL ALVES",
+      "quantidade": 5
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO PROFª MARIA TAVARES PINTO",
+      "quantidade": 19
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO RONALCO DOS ANJOS",
+      "quantidade": 7
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO SAO MIGUEL",
+      "quantidade": 5
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO SENADOR RUI PALMEIRA",
+      "quantidade": 24
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL DE ENSINO SITIO JOAO LEITE",
+      "quantidade": 9
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL ENS JULIO DAMASCENO RIBEIRO",
+      "quantidade": 5
+    },
+    {
+      "nome": "UNIDADE MUNICIPAL VER ANTONIO MACHADO GUIMARAES",
+      "quantidade": 5
+    }
+  ],
+  "turmas": [
+    {
+      "nome": "4 ANO",
+      "quantidade": 178
+    },
+    {
+      "nome": "3 ANO",
+      "quantidade": 169
+    },
+    {
+      "nome": "5 ANO",
+      "quantidade": 161
+    },
+    {
+      "nome": "2 ANO",
+      "quantidade": 137
+    },
+    {
+      "nome": "7 ANO",
+      "quantidade": 122
+    },
+    {
+      "nome": "1 ANO",
+      "quantidade": 116
+    },
+    {
+      "nome": "6 ANO",
+      "quantidade": 114
+    },
+    {
+      "nome": "8 ANO",
+      "quantidade": 109
+    },
+    {
+      "nome": "9 ANO",
+      "quantidade": 108
+    },
+    {
+      "nome": "2 ANO A",
+      "quantidade": 74
+    },
+    {
+      "nome": "1 ANO B",
+      "quantidade": 74
+    },
+    {
+      "nome": "7 ANO A",
+      "quantidade": 72
+    },
+    {
+      "nome": "1 ANO A",
+      "quantidade": 71
+    },
+    {
+      "nome": "6 ANO B",
+      "quantidade": 69
+    },
+    {
+      "nome": "9 ANO A",
+      "quantidade": 68
+    },
+    {
+      "nome": "9 ANO B",
+      "quantidade": 67
+    },
+    {
+      "nome": "7 ANO C",
+      "quantidade": 67
+    },
+    {
+      "nome": "7 ANO B",
+      "quantidade": 65
+    },
+    {
+      "nome": "6 ANO C",
+      "quantidade": 65
+    },
+    {
+      "nome": "8 ANO A",
+      "quantidade": 64
+    },
+    {
+      "nome": "8 ANO B",
+      "quantidade": 63
+    },
+    {
+      "nome": "9 ANO C",
+      "quantidade": 62
+    },
+    {
+      "nome": "4 ANO A",
+      "quantidade": 61
+    },
+    {
+      "nome": "5 ANO A",
+      "quantidade": 55
+    },
+    {
+      "nome": "6 ANO A",
+      "quantidade": 53
+    },
+    {
+      "nome": "2 ANO B",
+      "quantidade": 51
+    },
+    {
+      "nome": "5 ANO B",
+      "quantidade": 50
+    },
+    {
+      "nome": "8 ANO C",
+      "quantidade": 49
+    },
+    {
+      "nome": "3 ANO A",
+      "quantidade": 48
+    },
+    {
+      "nome": "7 ANO D",
+      "quantidade": 34
+    },
+    {
+      "nome": "9 ANO E",
+      "quantidade": 33
+    },
+    {
+      "nome": "4ANO B",
+      "quantidade": 33
+    },
+    {
+      "nome": "9 ANO D",
+      "quantidade": 31
+    },
+    {
+      "nome": "3ANO B",
+      "quantidade": 31
+    },
+    {
+      "nome": "3 ANO D",
+      "quantidade": 30
+    },
+    {
+      "nome": "3 ANO C",
+      "quantidade": 29
+    },
+    {
+      "nome": "8 ANO E",
+      "quantidade": 28
+    },
+    {
+      "nome": "4 ANO D",
+      "quantidade": 27
+    },
+    {
+      "nome": "4 ANO B",
+      "quantidade": 27
+    },
+    {
+      "nome": "8 ANO D",
+      "quantidade": 26
+    },
+    {
+      "nome": "4 ANO C",
+      "quantidade": 26
+    },
+    {
+      "nome": "6 ANO D",
+      "quantidade": 25
+    },
+    {
+      "nome": "6 ANO E",
+      "quantidade": 23
+    },
+    {
+      "nome": "5 ANO D",
+      "quantidade": 23
+    },
+    {
+      "nome": "2ANO B",
+      "quantidade": 22
+    },
+    {
+      "nome": "5 ANO C",
+      "quantidade": 22
+    },
+    {
+      "nome": "2 ANO F",
+      "quantidade": 21
+    },
+    {
+      "nome": "2 ANO E",
+      "quantidade": 21
+    },
+    {
+      "nome": "2 ANO C",
+      "quantidade": 21
+    },
+    {
+      "nome": "2 ANO D",
+      "quantidade": 21
+    },
+    {
+      "nome": "1 ANO F",
+      "quantidade": 20
+    },
+    {
+      "nome": "3 ANO B",
+      "quantidade": 18
+    },
+    {
+      "nome": "1 ANO E",
+      "quantidade": 17
+    },
+    {
+      "nome": "1 ANO C",
+      "quantidade": 17
+    },
+    {
+      "nome": "1 ANO D",
+      "quantidade": 17
+    },
+    {
+      "nome": "5ANO",
+      "quantidade": 15
+    },
+    {
+      "nome": "1 ANO POÇO DO SAL",
+      "quantidade": 10
+    },
+    {
+      "nome": "1 ANO POÇÃO",
+      "quantidade": 7
+    }
+  ],
+  "escolas_turmas": {
+    "UNIDADE MUNICIPAL DE ENSINO SITIO JOAO LEITE": [
+      {
+        "nome": "7 ANO",
+        "quantidade": 38
+      },
+      {
+        "nome": "8 ANO",
+        "quantidade": 35
+      },
+      {
+        "nome": "9 ANO",
+        "quantidade": 34
+      },
+      {
+        "nome": "6 ANO",
+        "quantidade": 18
+      },
+      {
+        "nome": "4 ANO",
+        "quantidade": 16
+      },
+      {
+        "nome": "5ANO",
+        "quantidade": 15
+      },
+      {
+        "nome": "1 ANO",
+        "quantidade": 15
+      },
+      {
+        "nome": "3 ANO",
+        "quantidade": 13
+      },
+      {
+        "nome": "2 ANO",
+        "quantidade": 9
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO PROFª MARIA TAVARES PINTO": [
+      {
+        "nome": "9 ANO B",
+        "quantidade": 43
+      },
+      {
+        "nome": "7 ANO A",
+        "quantidade": 40
+      },
+      {
+        "nome": "8 ANO A",
+        "quantidade": 36
+      },
+      {
+        "nome": "7 ANO C",
+        "quantidade": 36
+      },
+      {
+        "nome": "8 ANO B",
+        "quantidade": 35
+      },
+      {
+        "nome": "9 ANO A",
+        "quantidade": 35
+      },
+      {
+        "nome": "7 ANO D",
+        "quantidade": 34
+      },
+      {
+        "nome": "9 ANO E",
+        "quantidade": 33
+      },
+      {
+        "nome": "6 ANO A",
+        "quantidade": 33
+      },
+      {
+        "nome": "7 ANO B",
+        "quantidade": 33
+      },
+      {
+        "nome": "9 ANO D",
+        "quantidade": 31
+      },
+      {
+        "nome": "8 ANO E",
+        "quantidade": 28
+      },
+      {
+        "nome": "6 ANO C",
+        "quantidade": 28
+      },
+      {
+        "nome": "6 ANO B",
+        "quantidade": 28
+      },
+      {
+        "nome": "9 ANO C",
+        "quantidade": 26
+      },
+      {
+        "nome": "8 ANO D",
+        "quantidade": 26
+      },
+      {
+        "nome": "6 ANO D",
+        "quantidade": 25
+      },
+      {
+        "nome": "8 ANO C",
+        "quantidade": 23
+      },
+      {
+        "nome": "6 ANO E",
+        "quantidade": 23
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO MINISTRO AUGUSTO DE FREITAS MACHADO": [
+      {
+        "nome": "9 ANO C",
+        "quantidade": 36
+      },
+      {
+        "nome": "9 ANO A",
+        "quantidade": 33
+      },
+      {
+        "nome": "7 ANO A",
+        "quantidade": 32
+      },
+      {
+        "nome": "7 ANO B",
+        "quantidade": 32
+      },
+      {
+        "nome": "7 ANO C",
+        "quantidade": 31
+      },
+      {
+        "nome": "8 ANO A",
+        "quantidade": 28
+      },
+      {
+        "nome": "8 ANO B",
+        "quantidade": 28
+      },
+      {
+        "nome": "8 ANO C",
+        "quantidade": 26
+      },
+      {
+        "nome": "9 ANO B",
+        "quantidade": 24
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO PEDRO SOARES DOS PRAZERES": [
+      {
+        "nome": "6 ANO",
+        "quantidade": 27
+      },
+      {
+        "nome": "2 ANO",
+        "quantidade": 24
+      },
+      {
+        "nome": "7 ANO",
+        "quantidade": 22
+      },
+      {
+        "nome": "8 ANO",
+        "quantidade": 22
+      },
+      {
+        "nome": "4 ANO",
+        "quantidade": 22
+      },
+      {
+        "nome": "5 ANO",
+        "quantidade": 21
+      },
+      {
+        "nome": "9 ANO",
+        "quantidade": 20
+      },
+      {
+        "nome": "3 ANO",
+        "quantidade": 17
+      },
+      {
+        "nome": "1 ANO B",
+        "quantidade": 15
+      },
+      {
+        "nome": "1 ANO A",
+        "quantidade": 14
+      }
+    ],
+    "UNIDADE MUNIC DE ENS JOSE GONCALVES DE ANDRADE": [
+      {
+        "nome": "6 ANO",
+        "quantidade": 36
+      },
+      {
+        "nome": "3 ANO",
+        "quantidade": 23
+      },
+      {
+        "nome": "8 ANO",
+        "quantidade": 21
+      },
+      {
+        "nome": "7 ANO",
+        "quantidade": 20
+      },
+      {
+        "nome": "9 ANO",
+        "quantidade": 20
+      },
+      {
+        "nome": "5 ANO",
+        "quantidade": 20
+      },
+      {
+        "nome": "4 ANO",
+        "quantidade": 20
+      },
+      {
+        "nome": "2 ANO",
+        "quantidade": 11
+      },
+      {
+        "nome": "1 ANO",
+        "quantidade": 6
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO CAMPO NOVO": [
+      {
+        "nome": "9 ANO",
+        "quantidade": 23
+      },
+      {
+        "nome": "7 ANO",
+        "quantidade": 23
+      },
+      {
+        "nome": "8 ANO",
+        "quantidade": 18
+      },
+      {
+        "nome": "6 ANO",
+        "quantidade": 18
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENS JAIME DE ALTAVILLA": [
+      {
+        "nome": "6 ANO B",
+        "quantidade": 41
+      },
+      {
+        "nome": "6 ANO C",
+        "quantidade": 37
+      },
+      {
+        "nome": "6 ANO A",
+        "quantidade": 20
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO JOSE TAVARES DE CASTRO": [
+      {
+        "nome": "7 ANO",
+        "quantidade": 19
+      },
+      {
+        "nome": "6 ANO",
+        "quantidade": 15
+      },
+      {
+        "nome": "8 ANO",
+        "quantidade": 13
+      },
+      {
+        "nome": "9 ANO",
+        "quantidade": 11
+      }
+    ],
+    "UNIDADE MUNICIPAL ENS JULIO DAMASCENO RIBEIRO": [
+      {
+        "nome": "3 ANO",
+        "quantidade": 15
+      },
+      {
+        "nome": "1 ANO",
+        "quantidade": 13
+      },
+      {
+        "nome": "4 ANO",
+        "quantidade": 12
+      },
+      {
+        "nome": "2 ANO",
+        "quantidade": 12
+      },
+      {
+        "nome": "5 ANO",
+        "quantidade": 9
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO ANA TEREZA DE JESUS": [
+      {
+        "nome": "2 ANO",
+        "quantidade": 16
+      },
+      {
+        "nome": "4 ANO",
+        "quantidade": 14
+      },
+      {
+        "nome": "5 ANO",
+        "quantidade": 11
+      },
+      {
+        "nome": "1 ANO",
+        "quantidade": 11
+      },
+      {
+        "nome": "3 ANO",
+        "quantidade": 10
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO SAO MIGUEL": [
+      {
+        "nome": "4 ANO",
+        "quantidade": 21
+      },
+      {
+        "nome": "2 ANO",
+        "quantidade": 20
+      },
+      {
+        "nome": "1 ANO",
+        "quantidade": 20
+      },
+      {
+        "nome": "5 ANO",
+        "quantidade": 16
+      },
+      {
+        "nome": "3 ANO",
+        "quantidade": 15
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO SENADOR RUI PALMEIRA": [
+      {
+        "nome": "5 ANO A",
+        "quantidade": 35
+      },
+      {
+        "nome": "4ANO B",
+        "quantidade": 33
+      },
+      {
+        "nome": "4 ANO A",
+        "quantidade": 33
+      },
+      {
+        "nome": "3ANO B",
+        "quantidade": 31
+      },
+      {
+        "nome": "3 ANO A",
+        "quantidade": 30
+      },
+      {
+        "nome": "3 ANO D",
+        "quantidade": 30
+      },
+      {
+        "nome": "3 ANO C",
+        "quantidade": 29
+      },
+      {
+        "nome": "5 ANO B",
+        "quantidade": 29
+      },
+      {
+        "nome": "4 ANO D",
+        "quantidade": 27
+      },
+      {
+        "nome": "4 ANO C",
+        "quantidade": 26
+      },
+      {
+        "nome": "5 ANO D",
+        "quantidade": 23
+      },
+      {
+        "nome": "2 ANO A",
+        "quantidade": 23
+      },
+      {
+        "nome": "2ANO B",
+        "quantidade": 22
+      },
+      {
+        "nome": "5 ANO C",
+        "quantidade": 22
+      },
+      {
+        "nome": "2 ANO F",
+        "quantidade": 21
+      },
+      {
+        "nome": "2 ANO E",
+        "quantidade": 21
+      },
+      {
+        "nome": "2 ANO C",
+        "quantidade": 21
+      },
+      {
+        "nome": "2 ANO D",
+        "quantidade": 21
+      },
+      {
+        "nome": "1 ANO F",
+        "quantidade": 20
+      },
+      {
+        "nome": "1 ANO E",
+        "quantidade": 17
+      },
+      {
+        "nome": "1 ANO C",
+        "quantidade": 17
+      },
+      {
+        "nome": "1 ANO D",
+        "quantidade": 17
+      },
+      {
+        "nome": "1 ANO B",
+        "quantidade": 16
+      },
+      {
+        "nome": "1 ANO A",
+        "quantidade": 16
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO LINDAURO COSTA": [
+      {
+        "nome": "3 ANO",
+        "quantidade": 22
+      },
+      {
+        "nome": "1 ANO",
+        "quantidade": 18
+      },
+      {
+        "nome": "5 ANO",
+        "quantidade": 14
+      },
+      {
+        "nome": "2 ANO",
+        "quantidade": 13
+      },
+      {
+        "nome": "4 ANO",
+        "quantidade": 10
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO CAP MANOEL REGO": [
+      {
+        "nome": "4 ANO A",
+        "quantidade": 28
+      },
+      {
+        "nome": "4 ANO B",
+        "quantidade": 27
+      },
+      {
+        "nome": "2 ANO B",
+        "quantidade": 23
+      },
+      {
+        "nome": "1 ANO B",
+        "quantidade": 23
+      },
+      {
+        "nome": "5 ANO B",
+        "quantidade": 21
+      },
+      {
+        "nome": "1 ANO A",
+        "quantidade": 21
+      },
+      {
+        "nome": "2 ANO A",
+        "quantidade": 21
+      },
+      {
+        "nome": "5 ANO A",
+        "quantidade": 20
+      },
+      {
+        "nome": "3 ANO A",
+        "quantidade": 18
+      },
+      {
+        "nome": "3 ANO B",
+        "quantidade": 18
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO RONALCO DOS ANJOS": [
+      {
+        "nome": "4 ANO",
+        "quantidade": 29
+      },
+      {
+        "nome": "5 ANO",
+        "quantidade": 28
+      },
+      {
+        "nome": "3 ANO",
+        "quantidade": 22
+      },
+      {
+        "nome": "1 ANO A",
+        "quantidade": 20
+      },
+      {
+        "nome": "1 ANO B",
+        "quantidade": 20
+      },
+      {
+        "nome": "2 ANO B",
+        "quantidade": 15
+      },
+      {
+        "nome": "2 ANO A",
+        "quantidade": 15
+      }
+    ],
+    "UNIDADE MUNICIPAL VER ANTONIO MACHADO GUIMARAES": [
+      {
+        "nome": "1 ANO",
+        "quantidade": 15
+      },
+      {
+        "nome": "5 ANO",
+        "quantidade": 14
+      },
+      {
+        "nome": "2 ANO",
+        "quantidade": 12
+      },
+      {
+        "nome": "3 ANO",
+        "quantidade": 8
+      },
+      {
+        "nome": "4 ANO",
+        "quantidade": 8
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO MONSENHOR LYRA": [
+      {
+        "nome": "5 ANO",
+        "quantidade": 22
+      },
+      {
+        "nome": "4 ANO",
+        "quantidade": 20
+      },
+      {
+        "nome": "3 ANO",
+        "quantidade": 17
+      },
+      {
+        "nome": "2 ANO A",
+        "quantidade": 15
+      },
+      {
+        "nome": "1 ANO",
+        "quantidade": 15
+      },
+      {
+        "nome": "2 ANO B",
+        "quantidade": 13
+      }
+    ],
+    "UNIDADE MUNICIPAL DE ENSINO PROF MANOEL ALVES": [
+      {
+        "nome": "3 ANO",
+        "quantidade": 7
+      },
+      {
+        "nome": "5 ANO",
+        "quantidade": 6
+      },
+      {
+        "nome": "4 ANO",
+        "quantidade": 6
+      },
+      {
+        "nome": "2 ANO",
+        "quantidade": 6
+      },
+      {
+        "nome": "1 ANO",
+        "quantidade": 3
+      }
+    ],
+    "UNIDADE MUNIC DE ENS PROFª Mª CELESTE M DE ANDRADE": [
+      {
+        "nome": "2 ANO",
+        "quantidade": 14
+      },
+      {
+        "nome": "1 ANO POÇO DO SAL",
+        "quantidade": 10
+      },
+      {
+        "nome": "1 ANO POÇÃO",
+        "quantidade": 7
+      }
+    ]
+  },
+  "turnos": [
+    {
+      "nome": "Vespertino",
+      "quantidade": 1232
+    },
+    {
+      "nome": "Matutino",
+      "quantidade": 1019
+    },
+    {
+      "nome": "Integral",
+      "quantidade": 886
+    }
+  ],
+  "cursos": [
+    {
+      "nome": "ENSINO FUNDAMENTAL DE 9 ANOS - ANOS INICIAIS",
+      "quantidade": 1270
+    },
+    {
+      "nome": "ENSINO FUNDAMENTAL DE 9 ANOS - ANOS FINAIS",
+      "quantidade": 981
+    },
+    {
+      "nome": "ENSINO FUNDAMENTAL DE 9 ANOS - ANOS INICIAIS - EM TEMPO INTEGRAL",
+      "quantidade": 450
+    },
+    {
+      "nome": "ENSINO FUNDAMENTAL DE 9 ANOS - ANOS FINAIS - EM TEMPO INTEGRAL",
+      "quantidade": 436
+    }
+  ],
+  "series": [
+    {
+      "nome": "9 ANO",
+      "quantidade": 358
+    },
+    {
+      "nome": "8 ANO",
+      "quantidade": 326
+    },
+    {
+      "nome": "4 ANO",
+      "quantidade": 289
+    },
+    {
+      "nome": "3 ANO",
+      "quantidade": 271
+    },
+    {
+      "nome": "5 ANO",
+      "quantidade": 256
+    },
+    {
+      "nome": "6 ANO - INTEGRAL",
+      "quantidade": 250
+    },
+    {
+      "nome": "2 ANO",
+      "quantidade": 237
+    },
+    {
+      "nome": "1 ANO",
+      "quantidade": 217
+    },
+    {
+      "nome": "7 ANO",
+      "quantidade": 198
+    },
+    {
+      "nome": "7 ANO - INTEGRAL",
+      "quantidade": 162
+    },
+    {
+      "nome": "1 ANO - INTEGRAL",
+      "quantidade": 132
+    },
+    {
+      "nome": "2 ANO - INTEGRAL",
+      "quantidade": 131
+    },
+    {
+      "nome": "6 ANO",
+      "quantidade": 99
+    },
+    {
+      "nome": "5 ANO - INTEGRAL",
+      "quantidade": 70
+    },
+    {
+      "nome": "4 ANO - INTEGRAL",
+      "quantidade": 63
+    },
+    {
+      "nome": "3 ANO - INTEGRAL",
+      "quantidade": 54
+    },
+    {
+      "nome": "8 ANO - INTEGRAL",
+      "quantidade": 13
+    },
+    {
+      "nome": "9 ANO - INTEGRAL",
+      "quantidade": 11
+    }
+  ]
+}

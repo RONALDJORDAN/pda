@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logística - Levantamento de Escolas</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" rel="stylesheet">
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        dark: {
+                            bg: '#0a0a0a',
+                            surface: '#141414',
+                            'surface-variant': '#1e1e1e',
+                            border: '#2a2a2a',
+                            'on-surface': '#e0e0e0',
+                            'on-surface-variant': '#a0a0a0',
+                            outline: '#404040',
+                            secondary: '#059669',
+                        },
+                        accent: '#6366f1',
+                        'accent-hover': '#4f46e5',
+                        secondary: '#059669',
+                    },
+                    borderRadius: {
+                        DEFAULT: '0.5rem',
+                        lg: '0.75rem',
+                        xl: '1rem',
+                        full: '9999px',
+                    },
+                },
+            },
+        }
+    </script>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/logistica.css">
+</head>
+<body class="bg-[#0a0a0a] text-[#e0e0e0] font-sans antialiased selection:bg-[#6366f1] selection:text-white">
+
+    <!-- ============================================
+         NAVBAR SUPERIOR
+         ============================================ -->
+    <nav class="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-full max-w-[92%] lg:max-w-[90%]">
+        <div class="bg-[#141414]/90 backdrop-blur-md border border-[#2a2a2a]/50 rounded-2xl shadow-xl shadow-black/40 px-3 lg:px-5 h-14 grid grid-cols-[1fr_auto_1fr] items-center gap-3">
+
+            <!-- Logo PDA (esquerda) -->
+            <a href="index.html" class="flex items-center shrink-0 justify-self-start" aria-label="PDA - Página inicial">
+                <span class="w-11 h-11 rounded-lg bg-white p-0.5 flex items-center justify-center overflow-hidden">
+                    <img src="assets/img/logo_pda.png" alt="Logo PDA" width="44" height="43" class="w-full h-full object-contain">
+                </span>
+            </a>
+
+            <!-- Navegação principal (centro) -->
+            <div class="flex items-center gap-1 justify-self-center">
+                <a href="index.html" class="nav-link px-3 rounded-lg bg-[#1e1e1e] text-[#a0a0a0] hover:bg-[#2a2a2a] hover:text-[#e0e0e0] transition-colors" aria-label="Dashboard">
+                    <span class="material-symbols-outlined text-[17px] sm:mr-1" aria-hidden="true">space_dashboard</span>
+                    <span class="hidden sm:inline text-sm font-medium">Dashboard</span>
+                </a>
+                <!-- Dropdown Logística -->
+                <div class="relative group">
+                    <button id="btn-dropdown-logistica" aria-haspopup="true" aria-expanded="false" aria-controls="menu-logistica"
+                        class="nav-link px-3 rounded-lg bg-[#1e1e1e] text-[#a0a0a0] hover:bg-[#2a2a2a] hover:text-[#e0e0e0] transition-colors flex items-center gap-1" aria-label="Logística">
+                        <span class="material-symbols-outlined text-[17px] sm:mr-1" aria-hidden="true">calendar_today</span>
+                        <span class="hidden sm:inline text-sm font-medium">Logística</span>
+                        <span class="material-symbols-outlined text-[14px] sm:ml-1" aria-hidden="true">arrow_drop_down</span>
+                    </button>
+                    <div id="menu-logistica" class="absolute right-0 mt-2 w-56 bg-[#141414] border border-[#2a2a2a] rounded-xl shadow-xl shadow-black/50 hidden z-50"
+                         role="menu" aria-labelledby="btn-dropdown-logistica">
+                        <a href="logistica.html" class="block px-4 py-2.5 text-sm text-[#a0a0a0] hover:bg-[#2a2a2a] hover:text-[#e0e0e0] transition-colors" role="menuitem">
+                            <span class="material-symbols-outlined text-[16px] mr-2" aria-hidden="true">calendar_today</span>
+                            Logística Operacional
+                        </a>
+                        <a href="logistica-avaliacao.html" class="block px-4 py-2.5 text-sm text-[#a0a0a0] hover:bg-[#2a2a2a] hover:text-[#e0e0e0] transition-colors" role="menuitem">
+                            <span class="material-symbols-outlined text-[16px] mr-2" aria-hidden="true">assignment</span>
+                            Calendário de Avaliações
+                        </a>
+                        <a href="logistica-levantamento.html" class="block px-4 py-2.5 text-sm text-[#a0a0a0] hover:bg-[#2a2a2a] hover:text-[#e0e0e0] transition-colors font-bold text-[#0a0a0a] bg-[#6366f1]/10" role="menuitem" aria-current="page">
+                            <span class="material-symbols-outlined text-[16px] mr-2" aria-hidden="true">assessment</span>
+                            Levantamento e Informações
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tag (direita) -->
+            <div class="flex items-center gap-1.5 px-2 sm:px-3 py-2 rounded-lg bg-[#1e1e1e] border border-[#2a2a2a] text-[#e0e0e0] shrink-0 justify-self-end">
+                <span class="material-symbols-outlined text-[14px] hidden sm:inline" aria-hidden="true">school</span>
+                <span class="text-[10px] sm:text-xs font-medium whitespace-nowrap">
+                    <span class="hidden sm:inline">Levantamento de Escolas</span>
+                    <span class="sm:hidden">Levantamento</span>
+                </span>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ============================================
+         CONTEÚDO PRINCIPAL
+         ============================================ -->
+    <main class="pt-24 pb-8 px-4 lg:px-8 max-w-7xl mx-auto">
+
+        <h1 class="sr-only">Levantamento de Escolas Avaliadas - Séries, Turmas e Alunos</h1>
+
+        <!-- Dashboard Superior (KPIs) -->
+        <section id="dashboard-kpis" class="mb-8">
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="bg-[#141414] rounded-xl border border-[#2a2a2a] shadow-sm p-5 flex items-center gap-4">
+                    <div class="w-10 h-10 rounded-lg bg-[#6366f1]/20 flex items-center justify-center text-[#6366f1]">
+                        <span class="material-symbols-outlined text-[20px]" aria-hidden="true">school</span>
+                    </div>
+                    <div>
+                        <p class="text-xs font-bold text-[#a0a0a0] uppercase tracking-wider">Escolas Avaliadas</p>
+                        <p class="text-2xl font-bold text-[#e0e0e0]" id="kpi-total-escolas">0</p>
+                    </div>
+                </div>
+                <div class="bg-[#141414] rounded-xl border border-[#2a2a2a] shadow-sm p-5 flex items-center gap-4">
+                    <div class="w-10 h-10 rounded-lg bg-[#059669]/20 flex items-center justify-center text-[#059669]">
+                        <span class="material-symbols-outlined text-[20px]" aria-hidden="true">stairs</span>
+                    </div>
+                    <div>
+                        <p class="text-xs font-bold text-[#a0a0a0] uppercase tracking-wider">Séries Avaliadas</p>
+                        <p class="text-2xl font-bold text-[#e0e0e0]" id="kpi-total-series">0</p>
+                    </div>
+                </div>
+                <div class="bg-[#141414] rounded-xl border border-[#2a2a2a] shadow-sm p-5 flex items-center gap-4">
+                    <div class="w-10 h-10 rounded-lg bg-[#fbbf24]/20 flex items-center justify-center text-[#fbbf24]">
+                        <span class="material-symbols-outlined text-[20px]" aria-hidden="true">groups</span>
+                    </div>
+                    <div>
+                        <p class="text-xs font-bold text-[#a0a0a0] uppercase tracking-wider">Turmas</p>
+                        <p class="text-2xl font-bold text-[#e0e0e0]" id="kpi-total-turmas">0</p>
+                    </div>
+                </div>
+                <div class="bg-[#141414] rounded-xl border border-[#2a2a2a] shadow-sm p-5 flex items-center gap-4">
+                    <div class="w-10 h-10 rounded-lg bg-[#22c55e]/20 flex items-center justify-center text-[#22c55e]">
+                        <span class="material-symbols-outlined text-[20px]" aria-hidden="true">person</span>
+                    </div>
+                    <div>
+                        <p class="text-xs font-bold text-[#a0a0a0] uppercase tracking-wider">Total de Alunos</p>
+                        <p class="text-2xl font-bold text-[#e0e0e0]" id="kpi-total-alunos">0</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navegação entre escolas -->
+        <section id="navegacao-escolas" class="mb-6">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div class="flex items-center gap-2">
+                    <button type="button" id="btn-escola-anterior" aria-label="Escola anterior"
+                        class="px-4 py-2 rounded-lg bg-[#1e1e1e] border border-[#2a2a2a] text-[#c9c9c9] hover:bg-[#2a2a2a] hover:text-[#e0e0e0] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6366f1] disabled:opacity-50 disabled:cursor-not-allowed">
+                        <span class="material-symbols-outlined text-[18px]" aria-hidden="true">chevron_left</span>
+                    </button>
+                    <span id="indicador-escola-atual" class="text-sm font-bold text-[#e0e0e0]">Escola 1 de 19</span>
+                    <button type="button" id="btn-escola-proximo" aria-label="Próxima escola"
+                        class="px-4 py-2 rounded-lg bg-[#1e1e1e] border border-[#2a2a2a] text-[#c9c9c9] hover:bg-[#2a2a2a] hover:text-[#e0e0e0] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#6366f1] disabled:opacity-50 disabled:cursor-not-allowed">
+                        <span class="material-symbols-outlined text-[18px]" aria-hidden="true">chevron_right</span>
+                    </button>
+                </div>
+                <div class="text-right hidden sm:block text-sm text-[#a0a0a0]">
+                    <span id="total-escolas-span" class="text-[#e0e0e0] font-bold">19</span> escolas cadastradas
+                </div>
+            </div>
+        </section>
+
+        <!-- Card da escola atual (um por vez) -->
+        <section id="card-escola-atual" class="mb-8" role="region" aria-label="Detalhes da escola">
+            <!-- Card gerado dinamicamente -->
+        </section>
+
+        <!-- Lista resumida de todas as escolas (opcional, colapsável) -->
+        <section id="resumo-todas-escolas" class="hidden mt-8">
+            <div class="bg-[#141414] rounded-xl border border-[#2a2a2a] shadow-sm overflow-hidden">
+                <div class="bg-[#1e1e1e] border-b border-[#2a2a2a] p-4">
+                    <h3 class="text-sm font-bold text-[#e0e0e0] flex items-center gap-2">
+                        <span class="material-symbols-outlined text-[16px] text-[#6366f1]" aria-hidden="true">list</span>
+                        Todas as Escolas
+                    </h3>
+                </div>
+                <div id="lista-todas-escolas" class="divide-y divide-[#2a2a2a]/50">
+                    <!-- Lista gerada dinamicamente -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Tabela Resumo: Todas as Escolas -->
+        <section id="tabela-resumo" class="mt-8">
+            <div class="bg-[#141414] rounded-xl border border-[#2a2a2a] shadow-sm overflow-hidden">
+                <div class="bg-[#1e1e1e] border-b border-[#2a2a2a] p-4">
+                    <h3 class="text-sm font-bold text-[#e0e0e0] flex items-center gap-2">
+                        <span class="material-symbols-outlined text-[16px] text-[#6366f1]" aria-hidden="true">table_view</span>
+                        Resumo de Todas as Escolas
+                    </h3>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm">
+                        <caption class="sr-only">Resumo quantitativo de todas as escolas com técnicos, séries, turmas e alunos</caption>
+                        <thead>
+                            <tr class="border-b border-[#2a2a2a]">
+                                <th scope="col" class="px-4 py-3 text-[#a0a0a0] font-semibold text-[#404040] uppercase tracking-wider">Escola</th>
+                                <th scope="col" class="px-4 py-3 text-[#a0a0a0] font-semibold text-[#404040] uppercase tracking-wider">Técnicos</th>
+                                <th scope="col" class="px-4 py-3 text-[#a0a0a0] font-semibold text-[#404040] uppercase tracking-wider text-right">Séries</th>
+                                <th scope="col" class="px-4 py-3 text-[#a0a0a0] font-semibold text-[#404040] uppercase tracking-wider text-right">Turmas</th>
+                                <th scope="col" class="px-4 py-3 text-[#a0a0a0] font-semibold text-[#404040] uppercase tracking-wider text-right">Alunos</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabela-resumo-corpo">
+                            <!-- Linhas geradas dinamicamente -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="assets/js/logistica-levantamento.js"></script>
+    <script>
+        // Dropdown Logística
+        (function() {
+            const btn = document.getElementById('btn-dropdown-logistica');
+            const menu = document.getElementById('menu-logistica');
+            if (!btn || !menu) return;
+
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const expanded = btn.getAttribute('aria-expanded') === 'true';
+                btn.setAttribute('aria-expanded', String(!expanded));
+                menu.classList.toggle('hidden', !expanded);
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!btn.contains(e.target) && !menu.contains(e.target)) {
+                    btn.setAttribute('aria-expanded', 'false');
+                    menu.classList.add('hidden');
+                }
+            });
+
+            btn.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    btn.setAttribute('aria-expanded', 'false');
+                    menu.classList.add('hidden');
+                    btn.focus();
+                }
+            });
+
+            menu.querySelectorAll('a').forEach(function(item) {
+                item.addEventListener('click', function() {
+                    btn.setAttribute('aria-expanded', 'false');
+                    menu.classList.add('hidden');
+                });
+            });
+        })();
+    </script>
+</body>
+</html>

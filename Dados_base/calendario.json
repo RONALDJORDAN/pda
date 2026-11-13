@@ -1,0 +1,581 @@
+{
+  "evento": "Avalia Pão de Açúcar 2026.2",
+  "total_escolas": 19,
+  "total_turmas": 147,
+  "empresa": {
+    "nome": "Innov Soluções Educativas LTDA",
+    "cnpj": "51.364.515/0001-01"
+  },
+  "cronograma": [
+    {
+      "dia": "Terça-feira",
+      "data": "21/07",
+      "turnos": {
+        "manha": {
+          "total_turmas": 17,
+          "total_alunos_tablets": 434,
+          "tablets_leitura": 15,
+          "escolas": [
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO SENADOR RUI PALMEIRA",
+              "tecnicos": [
+                "Jordan",
+                "Alicia"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1° ANO A, 1° ANO B, 1° ANO C",
+                  "tablets": 49
+                },
+                {
+                  "turmas": "2° ANO A, 2°ANO B, 2° ANO C",
+                  "tablets": 66
+                },
+                {
+                  "turmas": "3° ANO A, 3°ANO B",
+                  "tablets": 61
+                },
+                {
+                  "turmas": "4° ANO A, 4°ANO B",
+                  "tablets": 66
+                },
+                {
+                  "turmas": "5° ANO A, 5° ANO B",
+                  "tablets": 64
+                }
+              ],
+              "total_alunos": 306
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO RONALCO DOS ANJOS",
+              "tecnicos": [
+                "Bruna"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO A, 2° ANO A, 3º ANO",
+                  "tablets": 57
+                }
+              ],
+              "total_alunos": 57
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO ANA TEREZA DE JESUS",
+              "tecnicos": [
+                "Matheus"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "2º ANO, 4º ANO",
+                  "tablets": 30
+                }
+              ],
+              "total_alunos": 30
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO PROF MANOEL ALVES",
+              "tecnicos": [
+                "Paula"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO, 2º ANO, 3º ANO, 4º ano, 5º Ano",
+                  "tablets": 28
+                }
+              ],
+              "total_alunos": 28
+            }
+          ]
+        },
+        "tarde": {
+          "total_turmas": 19,
+          "total_alunos_tablets": 402,
+          "tablets_leitura": 12,
+          "escolas": [
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO SENADOR RUI PALMEIRA",
+              "tecnicos": [
+                "Jordan",
+                "Alicia",
+                "Paula"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º  ANO D, 1º ANO E, 1º ANO F",
+                  "tablets": 54
+                },
+                {
+                  "turmas": "2° ANO D, 2º ANO E, 2º ANO F",
+                  "tablets": 63
+                },
+                {
+                  "turmas": "3º ANO C, 3º ANO D",
+                  "tablets": 59
+                },
+                {
+                  "turmas": "4º ANO C, 4º ANO D",
+                  "tablets": 53
+                },
+                {
+                  "turmas": "5º ANO C, 5º ANO D",
+                  "tablets": 45
+                }
+              ],
+              "total_alunos": 274
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO RONALCO DOS ANJOS",
+              "tecnicos": [
+                "Bruna"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO B, 2º ANO B",
+                  "tablets": 35
+                },
+                {
+                  "turmas": "4º ANO, 5º ANO",
+                  "tablets": 57
+                }
+              ],
+              "total_alunos": 92
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO ANA TEREZA DE JESUS",
+              "tecnicos": [
+                "Matheus"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO, 3º ANO, 5º Ano",
+                  "tablets": 32
+                }
+              ],
+              "total_alunos": 32
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dia": "Quarta-feira",
+      "data": "22/07",
+      "turnos": {
+        "manha": {
+          "total_turmas": 14,
+          "total_alunos_tablets": 388,
+          "tablets_leitura": 2,
+          "escolas": [
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO PROFª MARIA TAVARES PINTO",
+              "tecnicos": [
+                "Jordan",
+                "Bruna",
+                "Alicia"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "6º ANO A, 6º ANO B, 6º ANO C, 6º ANO D, 6º ANO E",
+                  "tablets": 137
+                },
+                {
+                  "turmas": "7º ANO A, 7º ANO B, 7º ANO C",
+                  "tablets": 109
+                },
+                {
+                  "turmas": "8º ANO A, 8º ANO B",
+                  "tablets": 71
+                },
+                {
+                  "turmas": "9º ANO A, 9º ANO B",
+                  "tablets": 78
+                }
+              ],
+              "total_alunos": 395
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL ENS JULIO DAMASCENO RIBEIRO",
+              "tecnicos": [
+                "Matheus",
+                "Paula"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO, 2º ANO",
+                  "tablets": 25
+                }
+              ],
+              "total_alunos": 25
+            }
+          ]
+        },
+        "tarde": {
+          "total_turmas": 19,
+          "total_alunos_tablets": 311,
+          "tablets_leitura": 4,
+          "escolas": [
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO PROFª MARIA TAVARES PINTO",
+              "tecnicos": [
+                "Jordan",
+                "Bruna",
+                "Alicia"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "7º ANO D",
+                  "tablets": 34
+                },
+                {
+                  "turmas": "8º ANO C, 8º ANO D, 8º ANO E",
+                  "tablets": 77
+                },
+                {
+                  "turmas": "9º ANO C, 9º ANO D, 9º ANO E",
+                  "tablets": 90
+                }
+              ],
+              "total_alunos": 201
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL ENS JULIO DAMASCENO RIBEIRO",
+              "tecnicos": [
+                "Matheus"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "3º ANO, 4º ANO, 5º ANO",
+                  "tablets": 36
+                }
+              ],
+              "total_alunos": 36
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO LINDAURO COSTA",
+              "tecnicos": [
+                "Paula"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO, 2º ANO, 3º ANO, 4º ANO, 5º ANO",
+                  "tablets": 77
+                }
+              ],
+              "total_alunos": 77
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dia": "Quinta-feira",
+      "data": "23/07",
+      "turnos": {
+        "manha": {
+          "total_turmas": 18,
+          "total_alunos_tablets": 377,
+          "tablets_leitura": 10,
+          "escolas": [
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO SAO MIGUEL",
+              "tecnicos": [
+                "Jordan"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO, 2º ANO, 3º ANO",
+                  "tablets": 55
+                }
+              ],
+              "total_alunos": 55
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO CAMPO NOVO",
+              "tecnicos": [
+                "Paula"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "6º ANO, 7º ANO",
+                  "tablets": 41
+                }
+              ],
+              "total_alunos": 41
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO SITIO JOAO LEITE",
+              "tecnicos": [
+                "Alicia"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO, 2º ANO, 3º ANO, 4º ANO",
+                  "tablets": 53
+                }
+              ],
+              "total_alunos": 53
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO PEDRO SOARES DOS PRAZERES",
+              "tecnicos": [
+                "Bruna"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO A, 1º ANO B, 2º ANO, 3º ANO",
+                  "tablets": 70
+                }
+              ],
+              "total_alunos": 70
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENS JAIME DE ALTAVILLA",
+              "tecnicos": [
+                "Brenda"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "6ª ANO A, 6º ANO B, 6º ANO C",
+                  "tablets": 98
+                }
+              ],
+              "total_alunos": 98
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO JOSE TAVARES DE CASTRO",
+              "tecnicos": [
+                "Matheus"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "6º ano, 7º ano, 8º ano, 9º ano",
+                  "tablets": 58
+                }
+              ],
+              "total_alunos": 58
+            }
+          ]
+        },
+        "tarde": {
+          "total_turmas": 18,
+          "aplicadores": 11,
+          "total_alunos_tablets": 424,
+          "tablets_leitura": 3,
+          "observacoes": "Os técnicos e APL da Escola Jaime de Altavilla seguem para auxiliar os demais na João Leite e Pedro Soares.",
+          "escolas": [
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO SAO MIGUEL",
+              "tecnicos": [
+                "Jordan"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "4º ANO, 5º ANO",
+                  "tablets": 37
+                }
+              ],
+              "total_alunos": 37
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO CAMPO NOVO",
+              "tecnicos": [
+                "Paula"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "8º ANO, 9º ANO",
+                  "tablets": 41
+                }
+              ],
+              "total_alunos": 41
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO SITIO JOAO LEITE",
+              "tecnicos": [
+                "Alicia",
+                "Brenda"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "5ºANO, 6º ANO, 7º ANO, 8º ANO, 9º ANO",
+                  "tablets": 140
+                }
+              ],
+              "total_alunos": 140
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO PEDRO SOARES DOS PRAZERES",
+              "tecnicos": [
+                "Bruna"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "4º ANO, 5º ANO, 6º ANO, 7º ANO, 8º ANO, 9º ANO",
+                  "tablets": 134
+                }
+              ],
+              "total_alunos": 134
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL VER ANTONIO MACHADO GUIMARAES",
+              "tecnicos": [
+                "Matheus"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO, 2º ANO, 3º ANO, 4º ANO, 5º ANO",
+                  "tablets": 57
+                }
+              ],
+              "total_alunos": 57
+            }
+          ]
+        }
+      }
+    },
+    {
+      "dia": "Sexta-feira",
+      "data": "24/07",
+      "turnos": {
+        "manha": {
+          "total_turmas": 16,
+          "aplicadores": 14,
+          "total_alunos_tablets": 401,
+          "tablets_leitura": 14,
+          "escolas": [
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO CAP MANOEL REGO",
+              "tecnicos": [
+                "Paula"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO A, 1º ANO B, 2º ANO A, 2º ANO B, 3º ANO A",
+                  "tablets": 106
+                }
+              ],
+              "total_alunos": 106
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO MINISTRO AUGUSTO DE FREITAS MACHADO",
+              "tecnicos": [
+                "Alicia"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "7° ANO A, 7º ANO B, 7º ANO C, 9º ANO A, 9º ANO B",
+                  "tablets": 152
+                }
+              ],
+              "total_alunos": 152
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO MONSENHOR LYRA",
+              "tecnicos": [
+                "Matheus"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO, 2° ANO A, 3º ANO",
+                  "tablets": 47
+                }
+              ],
+              "total_alunos": 47
+            },
+            {
+              "nome": "UNIDADE MUNIC DE ENS JOSE GONCALVES DE ANDRADE",
+              "tecnicos": [
+                "Bruna"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO, 2º ANO, 3º ANO, 4º ANO",
+                  "tablets": 60
+                }
+              ],
+              "total_alunos": 60
+            },
+            {
+              "nome": "UNIDADE MUNIC DE ENS PROFª Mª CELESTE M DE ANDRADE",
+              "tecnicos": [
+                "Jordan"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "1º ANO POÇO DO SAL, 1º ANO POÇÃO",
+                  "tablets": 17
+                },
+                {
+                  "turmas": "2º ANO",
+                  "tablets": 14
+                }
+              ],
+              "total_alunos": 31
+            }
+          ]
+        },
+        "tarde": {
+          "total_turmas": 18,
+          "aplicadores": 16,
+          "total_alunos_tablets": 424,
+          "tablets_leitura": 2,
+          "escolas": [
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO CAP MANOEL REGO",
+              "tecnicos": [
+                "Paula"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "3º ANO B, 4º ANO A, 4º ANO B, 5º ANO A, 5º ANO B",
+                  "tablets": 114
+                }
+              ],
+              "total_alunos": 114
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO MINISTRO AUGUSTO DE FREITAS MACHADO",
+              "tecnicos": [
+                "Alicia",
+                "Jordan"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "8º ANO A, 8º ANO B, 8º ANO C, 9º ANO C",
+                  "tablets": 118
+                }
+              ],
+              "total_alunos": 118
+            },
+            {
+              "nome": "UNIDADE MUNICIPAL DE ENSINO MONSENHOR LYRA",
+              "tecnicos": [
+                "Matheus"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "2º ANO B, 4º ANO, 5º ANO",
+                  "tablets": 55
+                }
+              ],
+              "total_alunos": 55
+            },
+            {
+              "nome": "UNIDADE MUNIC DE ENS JOSE GONCALVES DE ANDRADE",
+              "tecnicos": [
+                "Bruna"
+              ],
+              "turmas_e_tablets": [
+                {
+                  "turmas": "5º ANO, 6º ANO, 7º ANO, 8º ANO, 9º ANO",
+                  "tablets": 117
+                }
+              ],
+              "total_alunos": 117
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
